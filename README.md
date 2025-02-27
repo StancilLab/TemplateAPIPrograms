@@ -15,6 +15,8 @@ Line 33: In the REDCap API playground, change API method to "Export Reports" and
 Line 59: From the same API page, find the line that has the report ID (likely a 5 digit number). Copy this number and paste it in the quotation marks in this line.
 
 ### How to run
-  
+  Rscript "C:\Users\Path\To\Program\template_APIprog.R"
 
-This code was developed by an amateur programmer for research purposes. Feel free to reach out if you have questions, comments, or improvements. 
+We utilized the task scheduler and a bash file (Windows only) to set a time to call this program to run daily.
+
+Please not, this code was developed by an amateur programmer for research purposes. Feel free to reach out if you have questions, comments, or improvements. 
