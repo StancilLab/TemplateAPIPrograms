@@ -5,9 +5,13 @@ The "template_APIprog.R" is an R program file. This is where you will use the RE
 
 # Lines of Code to Update
 The following lines of code must be changed for proper utilization:
+
 Line 13: Add your API token generated through REDCap in the quotation marks.
+
 Line 30: Add a path to the location where you want your .xlsx saved. Make sure to use two \\ in the path and to end the path with the name of your exported data file .xlsx.
+
 Line 33: In the REDCap API playground, change API method to "Export Reports" and select your first report under report ID. At the bottom, select the R tab. Copy the URL in quotes and insert into the quotes on this line.
+
 Line 59: From the same API page, find the line that has the report ID (likely a 5 digit number). Copy this number and paste it in the quotation marks in this line.
 
 ### How to run
